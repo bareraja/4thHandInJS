@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Cryptocurrency Prices</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <div class="container">
+          <h4 class="brand-logo center">Real Time Cryptocurrency Prices</h4>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col s6">
+          <div class="box">
+            <div class="card">
+              <div class="card-content">
+                <h2 id="date">Date</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s6">
+          <div class="box">
+            <div class="card">
+              <div class="card-content">
+                <h2 id="time">Time</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="main"></div>
+      </div>
+    </div>
+	  
+    <!-- JavaScript -->
+    <script type="module" src="./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
